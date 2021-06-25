@@ -1,0 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.o
+*$py.class
+.vscode/
+input/
+output/
+logs/
