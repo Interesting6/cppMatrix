@@ -202,6 +202,7 @@ void Matrix::gaussianEliminate(const Matrix& A, const Matrix& B){
                 B.p[i][j] -= A.p[k][i]*B.p[i][j];
             }
         }
+        // TODO 消去上三角
     }
     A.Show();
     B.Show();
